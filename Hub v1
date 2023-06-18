@@ -1,4 +1,4 @@
--- Function to display a notification
+
 local function showNotification(message)
     local gui = Instance.new("ScreenGui")
     gui.Name = "NotificationGui"
@@ -30,7 +30,7 @@ local function showNotification(message)
     gui:Destroy()
 end
 
--- Example usage
+
 showNotification("Type '!Valora' to load the hub!")
 
 -- Replace this with your own code execution trigger
